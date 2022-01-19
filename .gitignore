@@ -1,3 +1,5 @@
+/dist/images/
+
 # ignore all files starting with . or ~
 .*
 ~*
