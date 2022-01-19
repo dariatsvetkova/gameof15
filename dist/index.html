@@ -49,11 +49,6 @@
                         <li>
                             <a class = "menu-item" href = "#how-to">How to Play</a>
                         </li>
-                        <li>
-                            <a class = "menu-item" href = "https://ko-fi.com/Z8Z5202TG" target = "_blank">Enjoy Playing?</a>
-                            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-                            <script type='text/javascript'>kofiwidget2.init('Say Thanks', '#46C9E0', 'Z8Z5202TG');kofiwidget2.draw();</script>
-                        </li>
                     </ul>
                 </div><!-- .nav-overlay -->    
 
@@ -148,15 +143,12 @@
     </div><!-- .content-wrapper -->
 
     <footer>
-
-        <div class = "btn">
-            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-            <script type='text/javascript'>kofiwidget2.init('Say Thanks', '#46C9E0', 'Z8Z5202TG');kofiwidget2.draw();</script>
-        </div>
-            
-        <small><a href = "https://dariatsvetkova.ca/" target = "_blank">&copy;Daria Tsvetkova, 2020</a></small>
-
+        <small><a href = "https://dariatsvetkova.ca/" target = "_blank">&copy; Daria Tsvetkova, <span id = "year" /></a></small>
     </footer>
+
+    <script type="text/javascript">
+        document.getElementById("year").innerHTML = (new Date).getFullYear();
+    </script>
 
 </body>
 </html>
